@@ -12,3 +12,22 @@ for i in range(len(movies)):
 json_object = json.dumps(movie_ratings, indent=4)
  
 print(json_object)
+padding: 0 .5ex;
+margin: 0;
+width: 6ex;
+line-height: 1.4em;
+height: 1.4em;
+
+background: none;
+border: none;
+font-family: Consolas, monospace;
+font-size: 100%;
+text-align: right;
+color: #666;
+
+  -moz-user-select: none;    /* задаем user-select для Firefox & webkit, чтобы
+                                блок не попадал в область выделения*/
+  -webkit-user-select: none;
+user-select: none;
+pointer-events: none;        /* фактически это свойство делает ненужным блок .over, 
+                                но пока оно поддерживается только в Firefox & webkit */
